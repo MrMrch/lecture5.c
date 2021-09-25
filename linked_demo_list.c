@@ -21,7 +21,7 @@ int main(void)
         n->number = 1;
     }
     
-    list = n;
+    list = n;  //should this be list = NULL; as a way to reinitialize it?
     
     node *n = malloc(sizeof(node));
     if (n != NULL)
